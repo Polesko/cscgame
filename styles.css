@@ -410,6 +410,59 @@ footer a:hover {
   color: var(--ink);
 }
 
+.legal {
+  display: block;
+  text-align: left;
+  padding: 40px 0 48px;
+  overflow-wrap: anywhere;
+}
+
+.legal .brand {
+  justify-content: flex-start;
+  color: inherit;
+  text-decoration: none;
+}
+
+.legal h1 {
+  margin: 28px 0 24px;
+  font-size: clamp(2.2rem, 6vw, 3.2rem);
+}
+
+.legal h2 {
+  margin: 2.2em 0 0.6em;
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  font-weight: 560;
+  line-height: 1.25;
+}
+
+.legal h3 {
+  margin: 1.6em 0 0.4em;
+  font-size: 0.85rem;
+  font-weight: 560;
+  letter-spacing: 0.08em;
+}
+
+.legal p,
+.legal li {
+  color: var(--muted);
+}
+
+.legal p {
+  margin: 0 0 1em;
+}
+
+.legal ul,
+.legal ol {
+  margin: 0 0 1em;
+  padding-left: 1.3em;
+}
+
+.legal a {
+  color: var(--ink);
+  text-underline-offset: 3px;
+}
+
 @media (max-height: 820px) {
   .hoop {
     width: min(340px, 38vh, 70vw);
